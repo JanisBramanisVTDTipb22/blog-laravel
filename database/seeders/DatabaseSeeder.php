@@ -25,5 +25,6 @@ class DatabaseSeeder extends Seeder
             "title" => "My first blog post",
             "category_id" => 1
         ]);
+        Post::factory(20)->create();
     }
 }

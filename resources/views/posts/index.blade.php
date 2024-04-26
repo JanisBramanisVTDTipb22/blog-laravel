@@ -10,7 +10,7 @@
     <h1>Posts</h1>
     <ul>
     @foreach ($posts as $post)
-        <li>{{ $post->title }}</li>
+        <li><a href="show/{{ $post->id }}">{{ $post->title }}</a></li>
     @endforeach
     </ul>
 </body>
